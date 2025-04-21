@@ -1,0 +1,16 @@
+<!-- templates/update_price.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Cafe Price</title>
+</head>
+<body>
+    <h1>Update Price for {{ cafe.name }}</h1>
+    <form action="{{ url_for('update_price', cafe_id=cafe.id) }}" method="post">
+        <label for="new_price">New Coffee Price:</label>
+        <input type="text" id="new_price" name="new_price" required>
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>

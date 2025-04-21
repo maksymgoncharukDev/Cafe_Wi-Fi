@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a New Cafe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Add a New Cafe</h1>
+        <form method="POST">
+            <label for="name">Cafe Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="map_url">Map URL:</label>
+            <input type="text" id="map_url" name="map_url" required><br>
+
+            <label for="img_url">Image URL:</label>
+            <input type="text" id="img_url" name="img_url" required><br>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required><br>
+
+            <label for="seats">Seats:</label>
+            <input type="text" id="seats" name="seats" required><br>
+
+            <label for="has_toilet">Has Toilet:</label>
+            <input type="checkbox" id="has_toilet" name="has_toilet"><br>
+
+            <label for="has_wifi">Has Wifi:</label>
+            <input type="checkbox" id="has_wifi" name="has_wifi"><br>
+
+            <label for="has_sockets">Has Sockets:</label>
+            <input type="checkbox" id="has_sockets" name="has_sockets"><br>
+
+            <label for="can_take_calls">Can Take Calls:</label>
+            <input type="checkbox" id="can_take_calls" name="can_take_calls"><br>
+
+            <label for="coffee_price">Coffee Price:</label>
+            <input type="text" id="coffee_price" name="coffee_price"><br>
+
+            <button type="submit">Add Cafe</button>
+        </form>
+    </div>
+</body>
+</html>
