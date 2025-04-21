@@ -2,6 +2,11 @@
 
 This web application is a portfolio project showcasing my ability to create a full-stack website using Flask and SQLAlchemy. It displays data about cafes with Wi-Fi and good coffee, sourced from an SQLite database (`cafes.db`). Users can view, add, and delete cafes.
 
+
+`![Website Screenshot]`:<img width="1470" alt="Знімок екрана 2025-04-21 о 15 39 38" src="https://github.com/user-attachments/assets/17f3af4a-67f5-474b-853e-fa0c47796c92" />
+
+
+
 ## Key Features
 
 * **View Cafes:** Displays a list of cafes from the database, including details like name, location, amenities, and coffee price.
